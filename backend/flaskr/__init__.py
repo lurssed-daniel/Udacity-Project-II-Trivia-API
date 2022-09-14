@@ -6,6 +6,7 @@ import random
 
 
 from models import setup_db, Question, Category
+from settings import DB_NAME, DB_USER, DB_PASSWORD
 
 QUESTIONS_PER_PAGE = 10
 
